@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.roit_IT-CoreModule_jar_1.0PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.roit.thamesITclub.coreModule.entity.Members</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Messages</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Events</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Accounts</class>
+    <class>com.roit.thamesITclub.coreModule.entity.ProfilePicture</class>
+    <class>com.roit.thamesITclub.coreModule.entity.EmailTemplates</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Meetings</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Posts</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Members_1</class>
+    <class>com.roit.thamesITclub.coreModule.entity.ProfilePicture_1</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Comments</class>
+    <class>com.roit.thamesITclub.coreModule.entity.Notifications</class>
+    <class>com.roit.thamesITclub.coreModule.entity.EventTeam</class>
+    <class>com.roit.thamesITclub.coreModule.entity.MeetingResponse</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/thames_itclub?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
